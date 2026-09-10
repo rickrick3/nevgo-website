@@ -1,0 +1,39 @@
+.quote {
+  background: var(--color-cream);
+  padding-block: clamp(3rem, 6vw, 5rem);
+}
+
+.quote__inner {
+  max-width: 760px;
+  text-align: center;
+}
+
+.quote__mark {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  line-height: 0.6;
+  color: var(--color-orange);
+  margin-bottom: var(--space-4);
+}
+
+.quote__text {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  line-height: 1.5;
+  color: var(--color-heading);
+  margin-bottom: var(--space-6);
+}
+
+.quote__author {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-orange);
+  font-size: var(--fs-small);
+}
+
+.quote__place {
+  color: var(--color-text-muted);
+  font-size: var(--fs-small);
+}

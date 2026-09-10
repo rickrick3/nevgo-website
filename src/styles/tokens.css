@@ -1,0 +1,68 @@
+/*
+ * Design tokens for the Nevgo landing page.
+ * Values matched by eye to the Figma design — adjust here if you have the
+ * exact hex/spacing from Dev Mode.
+ */
+:root {
+  /* Brand */
+  --color-orange: #f2971d;
+  --color-orange-dark: #e08808;
+  --color-orange-soft: #fcefe0;
+  --color-blue: #1f9fd6;
+  --color-blue-soft: #e9f4fb;
+  --color-navy: #1f2a45;
+  --color-navy-deep: #1b2236;
+
+  /* Surfaces */
+  --color-bg: #ffffff;
+  --color-cream: #fbf6ef;
+  --color-cream-deep: #f6efe4;
+
+  /* Text */
+  --color-heading: var(--color-navy);
+  --color-text: #4b5563;
+  --color-text-muted: #7a828f;
+  --color-text-invert: #ffffff;
+
+  /* Lines */
+  --color-border: #ece5d8;
+  --color-border-cool: #e4e7ec;
+
+  /* Typography */
+  --font-heading: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --fs-hero: clamp(2rem, 4.4vw, 3.25rem);
+  --fs-h2: clamp(1.75rem, 3vw, 2.35rem);
+  --fs-h3: 1.15rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-eyebrow: 0.75rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Layout */
+  --container-max: 1160px;
+  --container-pad: clamp(1.1rem, 4vw, 2.5rem);
+  --section-pad: clamp(3.5rem, 7vw, 6rem);
+
+  /* Radii + shadows */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --shadow-card: 0 14px 40px rgba(31, 42, 69, 0.08);
+  --shadow-soft: 0 6px 20px rgba(31, 42, 69, 0.06);
+}
