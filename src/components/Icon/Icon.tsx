@@ -2,6 +2,7 @@ import type { ReactElement, SVGProps } from "react";
 
 export type IconName =
   | "map-pin"
+  | "calendar"
   | "phone"
   | "mail"
   | "smartphone"
@@ -23,6 +24,12 @@ const PATHS: Record<IconName, ReactElement> = {
     <>
       <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
       <circle cx="12" cy="10" r="3" />
+    </>
+  ),
+  calendar: (
+    <>
+      <rect x="3" y="4" width="18" height="18" rx="2" />
+      <path d="M16 2v4M8 2v4M3 10h18" />
     </>
   ),
   phone: (

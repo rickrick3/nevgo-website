@@ -1,10 +1,10 @@
 import "./Impact.css";
 
 const STATS = [
-  { value: "500+", label: "Students Supported" },
-  { value: "10+", label: "Schools Reached" },
-  { value: "1,000+", label: "Supplies Donated" },
+  { value: "1000+", label: "Students Reached" },
+  { value: "100+", label: "Supplies Donated" },
   { value: "5+", label: "Communities Served" },
+  { value: "3", label: "Schools Reached" },
 ];
 
 export default function Impact() {

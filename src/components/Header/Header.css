@@ -38,6 +38,7 @@
   font-weight: 400;
   font-size: var(--fs-small);
   color: var(--color-heading);
+  white-space: nowrap;
 }
 
 .site-header__nav > a:hover {
@@ -60,6 +61,13 @@
   height: 2px;
   background: var(--color-heading);
   border-radius: 2px;
+}
+
+/* Tighter spacing so all seven links fit on one line before the menu collapses */
+@media (max-width: 1080px) {
+  .site-header__nav {
+    gap: var(--space-5);
+  }
 }
 
 @media (max-width: 860px) {

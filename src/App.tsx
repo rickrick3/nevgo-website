@@ -5,6 +5,8 @@ import Impact from "./components/Impact/Impact";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 import InAction from "./components/InAction/InAction";
 import Story from "./components/Story/Story";
+import Events from "./components/Events/Events";
+import Team from "./components/Team/Team";
 import Support from "./components/Support/Support";
 import Quote from "./components/Quote/Quote";
 import Contact from "./components/Contact/Contact";
@@ -21,6 +23,8 @@ function App() {
         <WhatWeDo />
         <InAction />
         <Story />
+        <Events />
+        <Team />
         <Support />
         <Quote />
         <Contact />
