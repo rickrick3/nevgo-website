@@ -20,6 +20,8 @@ export default function Footer() {
           <a href="#top">Home</a>
           <a href="#mission">About Us</a>
           <a href="#what-we-do">Our Work</a>
+          <a href="#events">Events</a>
+          <a href="#team">Our Team</a>
           <a href="#support">Donate Now</a>
         </nav>
 
@@ -32,11 +34,11 @@ export default function Footer() {
 
         <nav className="site-footer__col" aria-label="Social links">
           <h4>Socials</h4>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61589228382711" target="_blank" rel="noreferrer">
             <Icon name="facebook" size={16} />
             Facebook
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/company/nevgo" target="_blank" rel="noreferrer">
             <Icon name="linkedin" size={16} />
             LinkedIn
           </a>
