@@ -1,4 +1,4 @@
-import supportImg from "../../assets/photos/children-crowd.jpeg";
+import supportImg from "../../assets/photos/children-crowd.webp";
 import Icon, { type IconName } from "../Icon/Icon";
 import "./Support.css";
 
@@ -59,6 +59,8 @@ export default function Support() {
             alt="A large group of pupils celebrating with the supplies they received"
             width="520"
             height="560"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

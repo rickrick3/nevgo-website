@@ -1,8 +1,8 @@
 import logo from "../../assets/logo.jpeg";
-import photo1 from "../../assets/photos/team-school.jpeg";
-import photo2 from "../../assets/photos/coordinator.jpeg";
-import photo3 from "../../assets/photos/supplies-table.jpeg";
-import photo4 from "../../assets/photos/pupils-supplies.jpeg";
+import photo1 from "../../assets/photos/team-school.webp";
+import photo2 from "../../assets/photos/coordinator.webp";
+import photo3 from "../../assets/photos/supplies-table.webp";
+import photo4 from "../../assets/photos/pupils-supplies.webp";
 import "./InAction.css";
 
 const PHOTOS = [
@@ -61,7 +61,7 @@ export default function InAction() {
             </figure>
           ))}
           <div className="inaction__logo">
-            <img src={logo} alt="Nevgo — Education Impact Initiative" />
+            <img src={logo} alt="Nevgo — Education Impact Initiative" loading="lazy" />
           </div>
         </div>
       </div>

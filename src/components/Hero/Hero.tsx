@@ -1,4 +1,4 @@
-import heroImg from "../../assets/photos/team-school.jpeg";
+import heroImg from "../../assets/photos/team-school.webp";
 import "./Hero.css";
 
 export default function Hero() {
@@ -30,6 +30,7 @@ export default function Hero() {
             alt="Nevgo team and teachers gathered outside a partner school in Cameroon"
             width="620"
             height="460"
+            fetchPriority="high"
           />
         </div>
       </div>

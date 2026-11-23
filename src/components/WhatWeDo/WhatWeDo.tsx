@@ -1,6 +1,6 @@
-import supplyImg from "../../assets/photos/pupils-supplies.jpeg";
-import outreachImg from "../../assets/photos/pupils-older.jpeg";
-import supportImg from "../../assets/photos/coordinator.jpeg";
+import supplyImg from "../../assets/photos/pupils-supplies.webp";
+import outreachImg from "../../assets/photos/pupils-older.webp";
+import supportImg from "../../assets/photos/coordinator.webp";
 import "./WhatWeDo.css";
 
 const ITEMS = [

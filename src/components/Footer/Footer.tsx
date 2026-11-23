@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container site-footer__inner">
         <div className="site-footer__brand">
-          <img src={logo} alt="Nevgo — Education Impact Initiative" />
+          <img src={logo} alt="Nevgo — Education Impact Initiative" loading="lazy" />
           <p>
             Nevgo is an education-focused, non-governmental, and non-profit
             organization helping children access proper education resources and

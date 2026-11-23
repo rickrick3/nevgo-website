@@ -1,10 +1,10 @@
-import posterImg from "../../assets/photos/talk-opportunity-circle-wide.jpeg";
-import photo1 from "../../assets/photos/talk-full-classroom.jpeg";
-import photo2 from "../../assets/photos/talk-students-listening.jpeg";
-import photo3 from "../../assets/photos/talk-linkedin-board.jpeg";
-import photo4 from "../../assets/photos/talk-opportunity-circle-close.jpeg";
-import photo5 from "../../assets/photos/talk-scholarship-board.jpeg";
-import photo6 from "../../assets/photos/talk-group-debrief.jpeg";
+import posterImg from "../../assets/photos/talk-opportunity-circle-wide.webp";
+import photo1 from "../../assets/photos/talk-full-classroom.webp";
+import photo2 from "../../assets/photos/talk-students-listening.webp";
+import photo3 from "../../assets/photos/talk-linkedin-board.webp";
+import photo4 from "../../assets/photos/talk-opportunity-circle-close.webp";
+import photo5 from "../../assets/photos/talk-scholarship-board.webp";
+import photo6 from "../../assets/photos/talk-group-debrief.webp";
 import "./Story.css";
 
 const PHOTOS = [
@@ -35,7 +35,8 @@ export default function Story() {
         </p>
 
         <div className="story__video">
-          <video controls preload="metadata" poster={posterImg} playsInline>
+          {/* preload="none": the 4 MB video only downloads when someone presses play */}
+          <video controls preload="none" poster={posterImg} playsInline>
             <source src="/videos/classroom-talk-recap.mp4" type="video/mp4" />
           </video>
         </div>
