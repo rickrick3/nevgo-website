@@ -1,9 +1,9 @@
 import Icon from "../Icon/Icon";
-import opportunityPoster from "../../assets/events/opportunity-awareness-2026.jpg";
-import workshopPoster from "../../assets/events/application-workshop-2026.jpg";
-import skillsPoster from "../../assets/events/skills-of-tomorrow.jpg";
-import jobsPoster from "../../assets/events/jobs-of-tomorrow.jpg";
-import labsPoster from "../../assets/events/science-laboratories.jpg";
+import opportunityPoster from "../../assets/events/opportunity-awareness-2026.webp";
+import workshopPoster from "../../assets/events/application-workshop-2026.webp";
+import skillsPoster from "../../assets/events/skills-of-tomorrow.webp";
+import jobsPoster from "../../assets/events/jobs-of-tomorrow.webp";
+import labsPoster from "../../assets/events/science-laboratories.webp";
 import "./Events.css";
 
 const LINKEDIN_URL = "https://www.linkedin.com/company/nevgo";

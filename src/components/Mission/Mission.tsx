@@ -1,4 +1,4 @@
-import missionImg from "../../assets/photos/pupils-young.jpeg";
+import missionImg from "../../assets/photos/pupils-young.webp";
 import "./Mission.css";
 
 export default function Mission() {
@@ -11,6 +11,8 @@ export default function Mission() {
             alt="Primary school pupils holding new exercise books received from Nevgo"
             width="540"
             height="440"
+            loading="lazy"
+            decoding="async"
           />
         </div>
 
